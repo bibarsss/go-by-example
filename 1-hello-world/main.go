@@ -4,8 +4,6 @@ import "fmt"
 
 func main() {
 	var a, b int
-	//fmt.Print("Enter number a: ")
-	//fmt.Scan(&a)
 
 	fmt.Print("Enter a: ")
 	aInput, err := fmt.Scanln(&a)
